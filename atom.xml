@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>豪杰爱坤坤的小家</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-07-16T03:20:17.958Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>whaojie10</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>title</title>
+    <link href="http://yoursite.com/2020/07/16/title/"/>
+    <id>http://yoursite.com/2020/07/16/title/</id>
+    <published>2020-07-16T03:14:15.000Z</published>
+    <updated>2020-07-16T03:20:17.958Z</updated>
+    
+    <content type="html"><![CDATA[<p>#第一次搭建hexo，不容易。<br>#记录几个命令：hexo g；hexo d；hexo server；<br>#就这样吧，再见<br>#这只是一个测试。<br>#kk&amp;&amp;whj</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#第一次搭建hexo，不容易。&lt;br&gt;#记录几个命令：hexo g；hexo d；hexo server；&lt;br&gt;#就这样吧，再见&lt;br&gt;#这只是一个测试。&lt;br&gt;#kk&amp;amp;&amp;amp;whj&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
