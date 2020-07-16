@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-16T03:20:17.958Z</updated>
+  <updated>2020-07-16T13:32:32.804Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一天</title>
+    <link href="http://yoursite.com/2020/07/16/%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
+    <id>http://yoursite.com/2020/07/16/%E7%AC%AC%E4%B8%80%E5%A4%A9/</id>
+    <published>2020-07-16T13:30:00.000Z</published>
+    <updated>2020-07-16T13:32:32.804Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是第一次搞博客，没有什么经验。就是想有一个记录自己的空间。今天学到了很多，感觉挺好的。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是第一次搞博客，没有什么经验。就是想有一个记录自己的空间。今天学到了很多，感觉挺好的。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>title</title>
