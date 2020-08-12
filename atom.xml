@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-16T13:32:32.804Z</updated>
+  <updated>2020-08-12T12:07:12.968Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GTest单元测试</title>
+    <link href="http://yoursite.com/2020/08/12/GTest%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2020/08/12/GTest%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</id>
+    <published>2020-08-12T12:12:23.479Z</published>
+    <updated>2020-08-12T12:07:12.968Z</updated>
+    
+    <content type="html"><![CDATA[<p>2020/6/23</p><h1 id="GTest单元测试"><a href="#GTest单元测试" class="headerlink" title="GTest单元测试"></a>GTest单元测试</h1><h2 id="1-gt-入门"><a href="#1-gt-入门" class="headerlink" title="1&gt;入门"></a>1&gt;入门</h2><h4 id="单元测试"><a href="#单元测试" class="headerlink" title="单元测试"></a>单元测试</h4><p>开发过程中最低级别的测试环节，一般有编码人员自己完成；</p><ul><li>目的：隔离程序部件，并证明这些单个部件满足预期的功能。</li><li>在静态程序分析、代码检视之后，帮助在开发过程的早期发现问题。</li></ul><h4 id="好的测试具备以下特点："><a href="#好的测试具备以下特点：" class="headerlink" title="好的测试具备以下特点："></a>好的测试具备以下特点：</h4><ol><li>独立，即该测试用例不受其他测试的影响；</li><li>有效的组织架构，清晰的命名。对单个测试对象可能有多个测试用例对应该对象的多个功能；</li><li>可移植、可复用。不同的操作系统、编译器间进行方便地移植；</li><li>当用例失败时，提供尽可能多的有效信息。</li></ol><h4 id="单元测试的任务"><a href="#单元测试的任务" class="headerlink" title="单元测试的任务"></a>单元测试的任务</h4><ol><li>模块接口测试；</li><li>模块局部数据结构测试；</li><li>模块边界条件测试；</li><li>模块中所有独立执行通路测试；</li><li>模块各条错误处理通路测试；</li></ol><h4 id="何时写"><a href="#何时写" class="headerlink" title="何时写"></a>何时写</h4><ul><li>单元测试与具体实现代码同时进行。</li></ul><h4 id="写多细"><a href="#写多细" class="headerlink" title="写多细"></a>写多细</h4><p>哪些代码需要有单元测试覆盖：</p><ol><li>逻辑复杂的</li><li>容易出错的</li><li>不易理解的，即使是自己过段时间也会遗忘的，看不懂自己的代码，单元测试代码有助于理解代码的功能和需求</li><li>公共代码。比如自定义的所有http请求都会经过的拦截器；工具类等。</li><li>核心业务代码。一个产品里最核心最有业务价值的代码应该要有较高的单元测试覆盖率。</li></ol><h1 id="gmock"><a href="#gmock" class="headerlink" title="gmock"></a>gmock</h1><h2 id="1-初识-gmock"><a href="#1-初识-gmock" class="headerlink" title="1. 初识 gmock"></a>1. 初识 gmock</h2><ul><li><p>mock是便捷的模拟对象的方法；</p></li><li><p>特点：</p><ul><li>轻松地创建mock类</li><li>支持丰富的匹配器（Matcher）和行为（Action）</li><li>支持有序、无序、部分有序的期望行为的定义</li><li>多平台的支持</li></ul><p>当单元测试、模块的接口测试时，当这个模块需要依赖另外一个/几个类，而这时这些各类没有开发好，这时我们就可以定义了Mock对象来模拟那些类的行为。</p></li></ul><h2 id="Gtest-使用"><a href="#Gtest-使用" class="headerlink" title="Gtest 使用"></a>Gtest 使用</h2><h3 id="1-简单测试TEST"><a href="#1-简单测试TEST" class="headerlink" title="1. 简单测试TEST"></a>1. 简单测试TEST</h3><p>TEST(测试用例名，测试名)</p><ul><li>测试用例名，代表你要测试的函数；</li><li>测试名，代表函数中的某个测试对象；</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;2020/6/23&lt;/p&gt;
+&lt;h1 id=&quot;GTest单元测试&quot;&gt;&lt;a href=&quot;#GTest单元测试&quot; class=&quot;headerlink&quot; title=&quot;GTest单元测试&quot;&gt;&lt;/a&gt;GTest单元测试&lt;/h1&gt;&lt;h2 id=&quot;1-gt-入门&quot;&gt;&lt;a href=&quot;#1
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>第一天</title>
