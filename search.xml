@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>title</title>
+    <url>/2020/07/16/title/</url>
+    <content><![CDATA[<p>#第一次搭建hexo，不容易。<br>#记录几个命令：hexo g；hexo d；hexo server；<br>#就这样吧，再见<br>#这只是一个测试。<br>#kk&amp;&amp;whj</p>
+]]></content>
+  </entry>
+  <entry>
     <title>GTest单元测试</title>
     <url>/2020/08/12/GTest%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</url>
     <content><![CDATA[<p>2020/6/23</p>
@@ -54,12 +60,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>title</title>
-    <url>/2020/07/16/title/</url>
-    <content><![CDATA[<p>#第一次搭建hexo，不容易。<br>#记录几个命令：hexo g；hexo d；hexo server；<br>#就这样吧，再见<br>#这只是一个测试。<br>#kk&amp;&amp;whj</p>
-]]></content>
-  </entry>
-  <entry>
     <title>linux下调试代码，做GTest单元测试</title>
     <url>/2020/08/12/linux%E4%B8%8B%E8%B0%83%E8%AF%95%E4%BB%A3%E7%A0%81%EF%BC%8C%E5%81%9AGTest%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</url>
     <content><![CDATA[<p>2020/6/23</p>
@@ -100,9 +100,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>虚函数-纯虚函数 </title>
-    <url>/2020/08/12/%E8%99%9A%E5%87%BD%E6%95%B0-%E7%BA%AF%E8%99%9A%E5%87%BD%E6%95%B0%20/</url>
-    <content><![CDATA[<h1 id="虚函数、纯虚函数"><a href="#虚函数、纯虚函数" class="headerlink" title="虚函数、纯虚函数"></a>虚函数、纯虚函数</h1><h4 id="C-虚函数"><a href="#C-虚函数" class="headerlink" title="C++虚函数"></a>C++虚函数</h4><p>定义一个函数为虚函数，不代表不被实现；</p>
+    <title>虚函数</title>
+    <url>/2020/08/12/%E8%99%9A%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<h1 id="虚函数——纯虚函数"><a href="#虚函数——纯虚函数" class="headerlink" title="虚函数——纯虚函数"></a>虚函数——纯虚函数</h1><h4 id="C-虚函数"><a href="#C-虚函数" class="headerlink" title="C++虚函数"></a>C++虚函数</h4><p>定义一个函数为虚函数，不代表不被实现；</p>
 <p>定义虚函数为了允许积累的指针来调用子类的这个函数；</p>
 <p>第一纯虚函数是为了实现一个接口，起到一个规范作用，规范继承这个类的程序员必须实现这个函数</p>
 <h4 id="C-纯虚函数"><a href="#C-纯虚函数" class="headerlink" title="C++纯虚函数"></a>C++纯虚函数</h4><p>纯虚函数是在基类中声明的虚函数，它在基类中没有定义，但要求在任何派生类都要定义自己的实现方法。在基类中实现纯虚函数的方法是在函数原型后加“=0”</p>
